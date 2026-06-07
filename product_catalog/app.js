@@ -107,6 +107,15 @@ const products = [
     rating: 4.0,
     inStock: true,
   },
+  {
+    id: 13,
+    name: "Surface Pro 9",
+    price: 29990000,
+    category: "laptop",
+    image: "https://placehold.co/400x400?text=Surface+Pro+9",
+    rating: 4.3,
+    inStock: true,
+  },
 ];
 
 const state = {
