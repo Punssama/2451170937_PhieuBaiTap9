@@ -229,6 +229,9 @@ document.addEventListener("keydown", (e) => {
     toggleSlideshow();
   }
   if (e.key === "Escape") closePreview();
+  if (e.key === "Enter" && document.activeElement === heroImg) {
+    openPreview();
+  }
 });
 
 renderGallery();
