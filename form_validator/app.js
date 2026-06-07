@@ -10,11 +10,11 @@ const modal = document.getElementById("modal");
 const summary = document.getElementById("summary");
 const closeModal = document.getElementById("closeModal");
 
-const nameMsg = document.getElementById("nameMsg");
-const emailMsg = document.getElementById("emailMsg");
-const passwordMsg = document.getElementById("passwordMsg");
-const confirmMsg = document.getElementById("confirmMsg");
-const phoneMsg = document.getElementById("phoneMsg");
+const nameMsg = document.getElementById("nameMSG");
+const emailMsg = document.getElementById("emailMSG");
+const passwordMsg = document.getElementById("passwordMSG");
+const confirmMsg = document.getElementById("confirmMSG");
+const phoneMsg = document.getElementById("phoneMSG");
 
 function setStatus(input, messageEl, isValid, message = "") {
   input.classList.toggle("valid", isValid);
